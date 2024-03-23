@@ -4,13 +4,13 @@
 name: Workflow de integracao continua
 
 on:
-push:
+  push:
     branches: [ "main", "develop" ]
   pull_request:
     branches: [ "main", "develop" ]
 
 jobs:
-  testes:
+  testes2:
 
     runs-on: ubuntu-latest
 

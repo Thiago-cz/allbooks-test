@@ -4,8 +4,10 @@
 name: Workflow de integracao continua
 
 on:
+push:
+    branches: [ "main", "develop" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "develop" ]
 
 jobs:
   testes:

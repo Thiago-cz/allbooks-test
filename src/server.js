@@ -18,6 +18,6 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("Bem vindo a API do Alura Books")
+  console.log("Bem vindo a API do Alura Books!")
   console.log("API disponível em http://localhost:8000")
 })
